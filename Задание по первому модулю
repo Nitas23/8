@@ -1,0 +1,9 @@
+grades = [[5, 3, 3, 5, 4], [2, 2, 2, 3], [4, 5, 5, 2], [4, 4, 3], [5, 5, 5, 4, 5]]
+a=grades[0];b=grades[1];c=grades[2];d=grades[3];e=grades[4]
+aver=sum(a)/len(a);aver1=sum(b)/len(b);aver2=sum(c)/len(c);aver3=sum(d)/len(d);aver4=sum(e)/len(e)
+average=[aver,aver1,aver2,aver3,aver4]
+students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}
+students_list=list(students)
+sorted_students=sorted(students_list)
+dictionary_students=dict(zip(sorted_students,average))
+print(dictionary_students)
